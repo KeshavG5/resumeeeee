@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+  }
+  
+  p {
+    font-size: large;
+  }
+  
+  li {
+      font-size: large;
+      margin-bottom: 10px;
+  }
+
+  #k1 {
+    border-radius: 20%;
+  }
+
+  .mi {
+    margin-left: 0px;
+  }
+
+  div a:hover {
+    background-color: rgb(105, 169, 232);
+  }
+
+  @media (max-width: 500px) {
+    img {
+      height: 65px;
+    }
+    .mi {
+      text-align: center;
+    }
+  }
+  

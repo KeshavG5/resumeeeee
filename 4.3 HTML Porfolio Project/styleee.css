@@ -1,0 +1,134 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-image: url(https://extendthemes.com/demos/mesmerize-pro-portfolio/wp-content/uploads/sites/16/2016/06/cropped-background-2726039-6x4.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: round;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.logo {
+  height: 160px;
+  margin-left: -19px;
+  margin-top: -40px;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+
+.pixel-image {
+  height: 210px;
+  width: 300px;
+  float: left;
+  margin-right: 50px;
+}
+
+.ui-image {
+  height: 210px;
+  width: 300px;
+  float: left;
+  margin-right: 50px;
+}
+
+.down {
+  float: left;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.down2 {
+  float: right;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+
+.card {
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+ .Creative {
+  color: midnightblue;
+ }
+
+ nav ul {
+  list-style: none;
+  margin: 0;
+  margin-left:982px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #7a42c3;
+}
+
+ @media (max-width: 600px) {
+  .logo {
+    height: 70px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: xxx-large;
+  }
+
+  .card {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+ }
+
+
+
+
+
+
